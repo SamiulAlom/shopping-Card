@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(222, 219, 219, 0.688);
+}
+img{
+    padding-bottom: 0;
+}
+article{
+    margin: 0 5vw;
+}
+.main-body{
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+.product-body{
+    padding: 20px 0px;
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.product-details{
+    display: flex;
+    align-items: center;
+}
+.product-image{
+    padding-right: 30px;
+}
+.product-name{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'open sans';
+}
+.product-price{
+    align-items: center;
+}
+.price-style{
+    font-size: 40px;
+    font-weight: 500;
+    margin:0 15px ;
+}
+.dollar{
+    font-size: 25px;
+}
+.product-amount, .number, .plus{
+    font-size: 25px;
+}
+.product-amount{
+    margin: 0;
+}
+.minus{
+    font-size: 35px;
+}
+.amount-body{
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: 12px;
+}
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    padding: 0 12vw;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    padding-right: 8vw;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    border: 1px solid green;
+    border-radius: 15px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
